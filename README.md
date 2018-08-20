@@ -1,10 +1,10 @@
 # health-wellness-NLP-project
 
 ## Overview
-This text analytics project scrapes articles about a topic of interest from vetted sources on the web and presents a concise summary of the most important points from the conglomerate of articles, along with the most frequent words.  While the code presented here can be applied to articles on any topic, the goal of this project is to extract key information from the abundance of health and wellness information available online.  Doing so efficiently and accurately encourages awareness of different health issues and solutions, promotes preventative healthcare, and delivers more focused health information.
+This text analytics project scrapes articles about a topic of interest from vetted sources on the web and presents a concise summary of the most important points from the conglomerate of articles, along with the most frequent words.  It also includes topic modeling with LDA, presenting the top 10 topics from the corpus.  While the code presented here can be applied to articles on any topic, the goal of this project is to extract key information from the abundance of health and wellness information available online.  Doing so efficiently and accurately encourages awareness of different health issues and solutions, promotes preventative healthcare, and delivers more focused health information.  Here I take genetic testing as the topic.
 
 ## Prerequisites
-The code was written in Python 2.7 and the following Python packages are required:<br>
+The following Python packages are required:<br>
 bs4 - BeautifulSoup, used for web scraping<br>
 nltk - natural language toolkit<br>
 networkx - builds a network graph, includes PageRank function<br>
