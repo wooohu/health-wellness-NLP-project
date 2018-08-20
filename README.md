@@ -8,10 +8,12 @@ The code was written in Python 2.7 and the following Python packages are require
 bs4 - BeautifulSoup, used for web scraping<br>
 nltk - natural language toolkit<br>
 networkx - builds a network graph, includes PageRank function<br>
+gensim - for topic modeling with LDA
 
 ## How to run
 The repository includes the links text file, which is the input for 'Text Extraction with BeautifulSoup'.  The output is the corpus_cleaned text file, which is also the input to 'TextRank Summmary'.  The links file is curated by the user to ensure the sources are reliable.
 
-## Acknowledgements
+## References
 @davidadamojr repo link: https://github.com/davidadamojr/TextRank/blob/master/textrank/__init__.py <br>
 TextRank: Bringing Order into Texts - R. Mihalcea and P. Tarau (2004)
+https://www.analyticsvidhya.com/blog/2016/08/beginners-guide-to-topic-modeling-in-python/
